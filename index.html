@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Counter down timer</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <section class="counterDown">
+    <div class="container">
+        <h1> COUNTER DOWN</h1>
+        <!-- strat form for enter date to counter down-->
+        <form id="counterForm">
+           <!-- 1-container for enter information about date--> 
+            <div class="counterLabel">
+            <label>what is your title ?</label>
+             </div>
+            <div class="counterInput">
+            <input id="titleInput" type="text" name="ftitle">
+            </div> 
+
+              <!-- 2-container to enter date --->  
+            <div class="counterLabel">
+            <label>what is your date and time ?</label>
+            </div>
+            <!-- input for enter date --->
+            <div class="counterInput">
+            <input id="dateInput" type="datetime-local"  name="countdata">
+            </div>
+            
+            <!-- container for btn-->
+            <div class="counterBtn">
+            <button id="enterBtn" type="submit">enter</button>
+            </div>
+        </form>
+        <!-- end form-->
+        <!-- div to show data in it -->
+        <div id="showData"></div>
+    </div>
+    <!-- end container -->
+    
+    </section>
+    
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
